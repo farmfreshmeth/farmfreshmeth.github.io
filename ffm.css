@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .container {
@@ -12,4 +13,23 @@ body {
 .with-background {
   background-image: url('barn.png');
   background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  margin: 0px;
+  letter-spacing: 2px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.list-header {
+  margin: 10 0 0 0px;
 }
