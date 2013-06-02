@@ -1,0 +1,15 @@
+body {
+  background-color: white;
+}
+
+.container {
+  width: 980px;
+  height: 735px;
+  margin: auto;
+  padding: 10 50 50 50px;
+}
+
+.with-background {
+  background-image: url('barn.png');
+  background-repeat: no-repeat;
+}
