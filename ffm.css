@@ -6,27 +6,27 @@
 }
 
 body {
-  background-color: white;
   font-family: 'PT Sans', sans-serif;
+  background-color: white;
 }
 
-.background {
-  width: 980px;
-  height: 735px;
-  margin: auto;
-  background-image: url('barn.png');
-  background-repeat: no-repeat;
+.content img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.container {
-  width: 880px;
-  height: 655px;
-  margin: auto;
-  padding-top: 40px;
+/* mobile */
+.content {
+  background-color: rgba(255, 255, 255, 0.0);
+  padding: 15px 15px 15px 15px;
+}
+
+.content img {
+  padding-bottom: 10px;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 200%;
   margin-bottom: 0px;
   margin-top: 0px;
   letter-spacing: 3px;
@@ -42,12 +42,52 @@ ul {
 }
 
 .list-header {
-  padding: 100 0 0 0px;
-  font-size: 125%;
+  padding-top: 10px;
+  font-size: 120%;
 }
 
 .body-text {
   line-spacing: 1.5;
   font-size: 125%;
   margin-bottom: 10px;
+}
+
+/* desktop */
+@media only screen and (min-width: 1025px) {
+  .content {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .content img {
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    margin: 0px;
+    letter-spacing: 2px;
+  }
+
+  ul {
+    margin: 0px;
+  }
+
+  .list-header {
+    padding-top: 20px;
+    font-size: 125%;
+  }
+
+  .body-text {
+    line-spacing: 1.5;
+    font-size: 125%;
+    margin-bottom: 10px;
+  }
 }
